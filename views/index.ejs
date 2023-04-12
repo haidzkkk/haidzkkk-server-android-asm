@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body style="background-color: rgb(245, 255, 255);">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header" style=" float: right;">
+          <form class="form-inline">
+            <img src="<%= user?.path %>" alt="image" width="50" height="50" >
+            <p id="text-name" class="navbar-brand"><%= user?.name %></p>
+            <a href="/logout" class="btn btn-primary my-2 my-sm-0">Logout</a>
+          </form>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="/">Home</a></li>
+          <li><a href="/user/list">Users</a></li>
+          <li><a href="/product/">Producrs</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+        <h1 style="color: violet;" class="text-center">Welcome to my website</h1>
+    </div>
+   
+  </body>
+</html>

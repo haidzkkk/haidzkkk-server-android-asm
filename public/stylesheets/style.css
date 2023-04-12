@@ -1,0 +1,15 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  overflow-y: scroll;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#text-name{
+  font-size: 25px;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
